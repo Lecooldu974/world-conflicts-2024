@@ -3,46 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guerre en Ukraine</title>
+    <title>Conflit en Ukraine</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
         }
         header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
+            background-color: #1a1a1a;
+            width: 100%;
+            padding: 40px 0;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
         }
-        h1 {
+        header h1 {
             margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1.5px;
         }
-        p {
-            margin: 20px;
-            text-align: left;
+        .content {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+            text-align: center;
         }
-        a {
+        .content p {
+            font-size: 1.4em;
+            line-height: 1.8;
+            margin-bottom: 50px;
+            color: #ccc;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content li {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .content li:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            margin-top: 100px;
+            padding: 30px 0;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #ccc;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1.1em;
+            letter-spacing: 0.5px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 15px 25px;
+            background-color: #fff;
+            color: #000;
             text-decoration: none;
-            color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: #444;
+            color: #fff;
         }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Guerre en Ukraine</h1>
+        <h1>Conflit en Ukraine</h1>
     </header>
 
-    <p>Le conflit entre la Russie et l'Ukraine a débuté en 2014 avec l'annexion de la Crimée par la Russie et s'est intensifié en 2022 avec l'invasion à grande échelle de l'Ukraine par la Russie.</p>
+    <div class="content">
+        <p>Le conflit en Ukraine, débuté en 2014, oppose les forces ukrainiennes aux séparatistes pro-russes dans l'est du pays, soutenus par la Russie.</p>
 
-    <p><strong>Acteurs principaux :</strong></p>
-    <ul>
-        <li>Soutien à l'Ukraine : États-Unis, Union Européenne, Royaume-Uni, etc.</li>
-        <li>Soutien à la Russie : Iran, Corée du Nord, Biélorussie, etc.</li>
-    </ul>
+        <ul>
+            <li><strong>Soutien à l'Ukraine :</strong> États-Unis, Union Européenne, Canada, Royaume-Uni.</li>
+            <li><strong>Soutien aux séparatistes pro-russes :</strong> Russie, Biélorussie.</li>
+        </ul>
 
-    <p><a href="index.html">Retour à l'accueil</a></p>
+        <a class="back-link" href="index.html">Retour à l'accueil</a>
+    </div>
+
+    <footer>
+        <p>Créé avec ❤️ par ChatGPT et Lecooldu974</p>
+    </footer>
+
 </body>
 </html>
