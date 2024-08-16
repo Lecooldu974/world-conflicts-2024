@@ -7,61 +7,66 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
+            background-color: #000;
+            color: #fff;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
         }
         header {
-            background-color: #007bff;
+            background-color: #1a1a1a;
             width: 100%;
-            padding: 20px 0;
+            padding: 40px 0;
             text-align: center;
-            color: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 2em;
-            letter-spacing: 1px;
+            font-size: 2.5em;
+            letter-spacing: 1.5px;
         }
         .content {
             width: 80%;
             max-width: 900px;
-            margin-top: 30px;
+            margin: 50px auto;
             text-align: center;
         }
         .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 40px;
+            font-size: 1.4em;
+            line-height: 1.8;
+            margin-bottom: 50px;
+            color: #ccc;
         }
         .content a {
-            display: inline-block;
-            margin: 10px 0;
-            padding: 15px 25px;
+            display: block;
+            margin: 20px 0;
+            padding: 20px 30px;
             text-decoration: none;
-            color: white;
-            background-color: #007bff;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            color: #000;
+            background-color: #fff;
+            border-radius: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            font-size: 1.2em;
         }
         .content a:hover {
-            background-color: #0056b3;
+            background-color: #444;
+            color: #fff;
+            transform: translateY(-5px);
         }
         footer {
-            margin-top: auto;
-            padding: 20px;
+            margin-top: 100px;
+            padding: 30px 0;
             text-align: center;
-            background-color: #007bff;
-            color: white;
+            background-color: #1a1a1a;
+            color: #ccc;
             width: 100%;
         }
         footer p {
             margin: 0;
+            font-size: 1.1em;
+            letter-spacing: 0.5px;
         }
     </style>
 </head>
@@ -72,19 +77,19 @@
     </header>
 
     <div class="content">
-        <p>Cliquez sur l'un des conflits ci-dessous pour en savoir plus :</p>
+        <p>Explorez les conflits actuels dans le monde en cliquant sur l'un des liens ci-dessous :</p>
 
-        <a href="Ukraine.html">Conflit en Ukraine</a><br>
-        <a href="Ethiopie.html">Conflit en Éthiopie</a><br>
-        <a href="Afghanistan.html">Conflit en Afghanistan</a><br>
-        <a href="Myanmar.html">Conflit au Myanmar</a><br>
-        <a href="Syrie.html">Conflit en Syrie</a><br>
-        <a href="Yemen.html">Conflit au Yémen</a><br>
-        <a href="Sahel.html">Conflits au Sahel</a><br>
-        <a href="Haiti.html">Conflit en Haïti</a><br>
-        <a href="Armenie_Azerbaidjan.html">Conflit entre l'Arménie et l'Azerbaïdjan</a><br>
-        <a href="RDC.html">Conflits en République Démocratique du Congo</a><br>
-        <a href="Coree_Sud_Nord.html">Conflit entre la Corée du Sud et la Corée du Nord</a>
+        <a href="Ukraine.html">Conflit en Ukraine</a>
+        <a href="Ethiopie.html">Conflit en Éthiopie</a>
+        <a href="Afghanistan.html">Conflit en Afghanistan</a>
+        <a href="Myanmar.html">Conflit au Myanmar</a>
+        <a href="Syrie.html">Conflit en Syrie</a>
+        <a href="Yemen.html">Conflit au Yémen</a>
+        <a href="Sahel.html">Conflits au Sahel</a>
+        <a href="Haiti.html">Conflit en Haïti</a>
+        <a href="Armenie_Azerbaidjan.html">Conflit entre l'Arménie et l'Azerbaïdjan</a>
+        <a href="RDC.html">Conflits en République Démocratique du Congo</a>
+        <a href="Corees.html">Conflit entre la Corée du Sud et la Corée du Nord</a>
     </div>
 
     <footer>
